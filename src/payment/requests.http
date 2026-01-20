@@ -1,0 +1,9 @@
+### Create a new user
+POST http://localhost:3000/payment
+content-type: application/json
+
+{
+  "method": "card",
+  "amount": 1000
+} 
+
