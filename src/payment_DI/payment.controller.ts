@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { PaymentService } from './payment.service';
-
+// using Dependency inversion(DI)
 @Controller('payment_di')
 export class PaymentController {
   constructor(private readonly paymentService: PaymentService) {}

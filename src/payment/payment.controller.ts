@@ -1,6 +1,7 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { PaymentService } from './payment.service';
 
+//using strategy pattern
 @Controller('payment')
 export class PaymentController {
   constructor(private readonly paymentService: PaymentService) {}

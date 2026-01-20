@@ -1,0 +1,10 @@
+### Create a new user
+POST http://localhost:3000/notifications/email
+content-type: application/json
+
+{
+  "message": "Hi"
+} 
+
+
+
