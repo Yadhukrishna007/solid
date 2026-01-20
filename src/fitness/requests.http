@@ -1,0 +1,19 @@
+### update
+POST http://localhost:3000/fitness/update
+content-type: application/json
+
+{
+ "steps": 20000,
+  "activeMinutes":1200,
+  "calories": 12000
+} 
+
+
+
+
+### reset
+POST http://localhost:3000/fitness/reset
+content-type: application/json
+
+
+
