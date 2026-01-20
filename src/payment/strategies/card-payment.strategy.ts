@@ -1,0 +1,9 @@
+import { Injectable } from '@nestjs/common';
+import { PaymentStrategy } from './payment-strategy.interface';
+
+@Injectable()
+export class CardPaymentStrategy implements PaymentStrategy {
+  pay(amount: number): string {
+    return `Paid ₹${amount} using Card`;
+  }
+}
